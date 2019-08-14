@@ -82,3 +82,6 @@ buildNumber.properties
 
 ## Angular app
 /ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/angular-app
+
+## Output Log
+output.log
