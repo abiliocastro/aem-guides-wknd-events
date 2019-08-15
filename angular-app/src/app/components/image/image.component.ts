@@ -8,11 +8,11 @@ import {MapTo} from '@adobe/cq-angular-editable-components';
 })
 export class ImageComponent implements OnInit {
  
-  @Input() src: string
+  @Input() src: string;
   @Input() link: string;
   @Input() alt: string;
   @Input() title: string;
-  @Input() displayPopupTitle: boolean;
+  @Input() displayPopupTitle: string;
  
   constructor() { }
  
@@ -22,6 +22,10 @@ export class ImageComponent implements OnInit {
  
   get imageTitle() {
     return this.displayPopupTitle ? this.title : '';
+  }
+ 
+  get imageCaption() {
+    return this.title;
   }
  
   ngOnInit() { }

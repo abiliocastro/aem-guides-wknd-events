@@ -82,6 +82,7 @@
                                 },
                                 "image": {
                                     "alt": "Aerial photo of mountain range",
+                                    "title": "Majestic Rainbow",
                                     "src": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1565797496651/mountain-range.jpeg",
                                     "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1565797496651/mountain-range.jpeg",
                                     "areas": [],
