@@ -1,0 +1,21 @@
+[
+    {
+      "context": [
+        "/content/**/*.model.json"
+      ],
+      "pathRewrite": { "^/content/wknd-events" : "/mocks/json"} ,
+      "target": "http://localhost:4200",
+      "logLevel": "debug"
+    },
+    {
+      "context": [
+        "/content/**/*.jpg",
+        "/content/**/*.jpeg"
+      ],
+      "logLevel": "debug",
+      "pathRewrite": { ".*": "/1000/450" },
+      "target": "https://www.fillmurray.com",
+      "secure": true,
+      "changeOrigin": true
+    }
+  ]
