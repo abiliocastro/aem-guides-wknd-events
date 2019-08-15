@@ -65,31 +65,93 @@
                                 ],
                                 "applicable": false
                             },
-                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12",
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
                             "columnClassNames": {
-                                "image": "aem-GridColumn aem-GridColumn--default--12",
-                                "text": "aem-GridColumn aem-GridColumn--tablet--11 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--12"
+                                "responsivegrid_936115438": "aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                                "responsivegrid": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
                             },
                             ":itemsOrder": [
-                                "text",
-                                "image"
+                                "responsivegrid",
+                                "responsivegrid_936115438"
                             ],
                             ":items": {
-                                "text": {
-                                    "text": "\u003Ch2\u003EHello World - Mockando a parada\u003C/h2\u003E\n",
-                                    "richText": true,
-                                    ":type": "wknd-events/components/content/text"
+                                "responsivegrid": {
+                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "components": [],
+                                        "applicable": false
+                                    },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--8 aem-Grid--tablet--8",
+                                    "columnClassNames": {
+                                        "image": "aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none",
+                                        "text_1252179159": "aem-GridColumn aem-GridColumn--default--8",
+                                        "text_118453181": "aem-GridColumn aem-GridColumn--default--8",
+                                        "text": "aem-GridColumn aem-GridColumn--tablet--5 aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--none aem-GridColumn--default--8 aem-GridColumn--offset--default--0 aem-GridColumn--default--none"
+                                    },
+                                    ":itemsOrder": [
+                                        "text",
+                                        "text_1252179159",
+                                        "image",
+                                        "text_118453181"
+                                    ],
+                                    ":items": {
+                                        "text": {
+                                            "text": "\u003Ch2\u003EHello World\u003C/h2\u003E\n",
+                                            "richText": true,
+                                            ":type": "wknd-events/components/content/text"
+                                        },
+                                        "text_1252179159": {
+                                            "text": "\u003Cp\u003E\u003Cb\u003ELorem Ipsum\u003C/b\u003E&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\u003C/p\u003E\r\n",
+                                            "richText": true,
+                                            ":type": "wknd-events/components/content/text"
+                                        },
+                                        "image": {
+                                            "alt": "Aerial photo of mountain range",
+                                            "title": "Caba do Caça Fantasmas",
+                                            "src": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg.jpeg/1565797496651/mountain-range.jpeg",
+                                            "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/responsivegrid/image.coreimg{.width}.jpeg/1565797496651/mountain-range.jpeg",
+                                            "areas": [],
+                                            "uuid": "c0a39183-23f4-48f0-8db7-bb41ba2b0122",
+                                            "widths": [],
+                                            "lazyEnabled": false,
+                                            ":type": "wknd-events/components/content/image"
+                                        },
+                                        "text_118453181": {
+                                            "text": "\u003Cp\u003E\u003Cb\u003ELorem Ipsum\u003C/b\u003E&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\u003C/p\u003E\r\n",
+                                            "richText": true,
+                                            ":type": "wknd-events/components/content/text"
+                                        }
+                                    },
+                                    ":type": "wcm/foundation/components/responsivegrid"
                                 },
-                                "image": {
-                                    "alt": "Aerial photo of mountain range",
-                                    "title": "Majestic Rainbow",
-                                    "src": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1565797496651/mountain-range.jpeg",
-                                    "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1565797496651/mountain-range.jpeg",
-                                    "areas": [],
-                                    "uuid": "c0a39183-23f4-48f0-8db7-bb41ba2b0122",
-                                    "widths": [],
-                                    "lazyEnabled": false,
-                                    ":type": "wknd-events/components/content/image"
+                                "responsivegrid_936115438": {
+                                    "columnCount": 12,
+                                    "allowedComponents": {
+                                        "components": [],
+                                        "applicable": false
+                                    },
+                                    "gridClassNames": "aem-Grid aem-Grid--default--4",
+                                    "columnClassNames": {
+                                        "text": "aem-GridColumn aem-GridColumn--default--4",
+                                        "text_28184516": "aem-GridColumn aem-GridColumn--default--4"
+                                    },
+                                    ":itemsOrder": [
+                                        "text",
+                                        "text_28184516"
+                                    ],
+                                    ":items": {
+                                        "text": {
+                                            "text": "\u003Ch4\u003ELorem Ipsum Ridiculus\u003C/h4\u003E\r\n",
+                                            "richText": true,
+                                            ":type": "wknd-events/components/content/text"
+                                        },
+                                        "text_28184516": {
+                                            "text": "\u003Cp\u003E\u003Cb\u003ELorem Ipsum\u003C/b\u003E&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\u003C/p\u003E\r\n",
+                                            "richText": true,
+                                            ":type": "wknd-events/components/content/text"
+                                        }
+                                    },
+                                    ":type": "wcm/foundation/components/responsivegrid"
                                 }
                             },
                             ":type": "wcm/foundation/components/responsivegrid"
